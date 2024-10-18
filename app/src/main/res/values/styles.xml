@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle">@style/CustomPopupMenu</item> <!-- Apply custom popup menu style -->
+        <item name="android:dropDownListViewStyle">@style/CustomPopupMenu</item> <!-- Apply custom dropdown style -->
+    </style>
+
+    <!-- Custom style for menu item text -->
+    <style name="CustomMenuItemText">
+        <item name="android:textColor">#FF0000</item> <!-- Change #FF0000 to your desired color -->
+    </style>
+
+    <!-- Custom style for popup menu -->
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/colorAccent</item> <!-- Or use a custom color directly -->
+    </style>
+</resources>
